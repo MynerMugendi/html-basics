@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            /* background-color: #000; */
+            border-bottom: 1px solid #000;
+        }
+
+        .nav-items {
+            width: 80%;
+            /* background-color: #f5f3f3; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-items ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .nav-items li {
+            margin: 0 10px;
+        }
+
+        .nav-items a {
+            text-decoration: none;
+            color: #000;
+            text-transform: capitalize;
+        }
+
+        .nav-items a:hover {
+            color: #7c7777;
+            text-decoration: underline;
+        }
+
+        .nav-items img {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* git add nav.html--for specific file */
+        /* git commit -m "Built nav bar" */
+        /* git push */
+    </style>
+</head>
+
+<body>
+    <!-- semantic  tags -->
+    <nav>
+        <div class="nav-items">
+            <img src="images/instagram icon.png" alt="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>
