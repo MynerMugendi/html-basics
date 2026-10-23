@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --brand-green: #159957;
+    --brand-dark: #1f2d3d;
+    --soft-bg: #f4f8f7;
+}
+
+body {
+    color: var(--brand-dark);
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+    color: var(--brand-green);
+    font-size: 1.4rem;
+}
+
+#dark-half {
+    color: var(--brand-dark);
+}
+
+.brand:hover {
+    color: #088008
+}
+
+.nav-link {
+    color: #536171;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--brand-green) !important;
+}
+
+.btn-success {
+    background-color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    border-radius: 0;
+}
+
+.btn-success:hover {
+    background-color: #088008 !important;
+    border-color: #088008 !important;
+    transition: all 0.3s;
+}
+
+.hero {
+    padding: 3.5rem;
+    background: linear-gradient(120deg, #f7faf9, #edf3f1);
+}
+
+.top {
+    color: var(--brand-green);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.hero h1 {
+    line-height: 1.2;
+}
+
+.section-heading {
+    margin-bottom: 0.4rem;
+}
+
+.card {
+    border-color: #e5e9ec;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /*all 0.2s ease*/
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: -5px 6px 15px -4px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: -5px 6px 15px -4px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: -5px 6px 15px -4px rgba(0, 0, 0, 0.69);
+}
+
+.about-section {
+    background-color: var(--soft-bg);
+}
+
+.about-section i {
+    color: var(--brand-green);
+    font-size: 2.5rem;
+}
+
+.about-section p {
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer{
+    background: #3b4c60;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    background: #2f3c4b;
+}
